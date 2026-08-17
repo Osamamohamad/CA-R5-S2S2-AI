@@ -7,9 +7,7 @@ def isPrime(num: int) -> bool:
         bool: True if the number is prime, False otherwise.
     Example:
         >>> isPrime(7)
-        True
-        >>> isPrime(10)
-        False
+        Tr
     '''
     if num <= 1:
         return False
@@ -35,3 +33,4 @@ def factorial(num: int) -> int:
     if num == 1:
         return 1
     return num * factorial(num - 1)
+print(isPrime(1))
